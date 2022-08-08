@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+body {
+    background-image: url("img/wpp.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5%;
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 400%;
+    color: #182825;
+}
+
+h2 {
+    font-family: 'Mukta', sans-serif;
+    color: #22AED1;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #016FB9;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none
+}
+
+a.saiba:hover {
+    background-color: #016FB9;
+    border-radius: 2px;
+    color: #182825;
+    padding: 5px;
+}
+
+.titulo {
+    color: #016FB9;
+}
+
+.texto{
+    padding-left: 15%;
+    padding: 10%;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.paragrafo {
+    font-family: 'Roboto', sans-serif; 
+    color: #22AED1;
+}
+
+.marca {
+    font-family: 'Square Peg', cursive;
+    font-size: 210%;
+
+}
+
+.saiba {
+    text-decoration: none;
+    color: #016FB9;
+
+}
+
+.marca, .img, .texto {
+    visibility: hidden;
+}
